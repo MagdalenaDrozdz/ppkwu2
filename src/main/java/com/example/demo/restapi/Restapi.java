@@ -22,7 +22,7 @@ public class Restapi {
     }
 
     @GetMapping("check/{characters}")
-    public String getReversedString(@PathVariable String characters) {
+    public HashMap getInfoAboutString(@PathVariable String characters) {
         return serwis.checkString(characters);
     }
 }

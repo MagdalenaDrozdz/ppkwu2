@@ -6,7 +6,7 @@ import java.util.HashMap;
 @org.springframework.stereotype.Service
 
 public class Serwis {
-    public String checkString(String string) {
+    public HashMap checkString(String string) {
         HashMap infoAboutString = new HashMap();
 
         int upperLetters = 0;
@@ -30,6 +30,6 @@ public class Serwis {
         infoAboutString.put("numbers", numbers);
         infoAboutString.put("others", others);
 
-        return string;
+        return infoAboutString;
     }
 }
