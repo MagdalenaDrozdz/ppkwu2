@@ -13,4 +13,4 @@ Otrzymujemy:
 **{"numbers":6,"upperLetters":2,"lowerLetters":6,"others":1}**
 
 Zwracana nam zostaje mapa, w której mamy do danej kategorii znaków : numbers, upperLetters, lowerLetters, others przypisaną liczbę wystąpień znaku danej kategorii.
-Np. w tekście "Test123-Test123" mielismy dwie duż litery dlatego mamy "upperLetters":2.
+Np. w tekście "Test123-Test123" mielismy dwie duże litery dlatego mamy "upperLetters":2.
