@@ -19,8 +19,8 @@ public class Restapi {
         this.serwis = sampleService;
     }
 
-    @GetMapping("reverse/{characters}")
+    @GetMapping("check/{characters}")
     public String getReversedString(@PathVariable String characters) {
-        return serwis.reverse(characters);
+        return serwis.checkString(characters);
     }
 }
