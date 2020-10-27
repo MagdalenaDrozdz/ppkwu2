@@ -7,7 +7,7 @@ import java.util.HashMap;
 
 public class Serwis {
     public String checkString(String string) {
-        HashMap hashMap = new HashMap();
+        HashMap infoAboutString = new HashMap();
 
         int upperLetters = 0;
         int lowerLetters = 0;
@@ -25,10 +25,10 @@ public class Serwis {
                 others+=1;
             }
         }
-        hashMap.put("upperLetters", upperLetters);
-        hashMap.put("lowerLetters", lowerLetters);
-        hashMap.put("numbers", numbers);
-        hashMap.put("others", others);
+        infoAboutString.put("upperLetters", upperLetters);
+        infoAboutString.put("lowerLetters", lowerLetters);
+        infoAboutString.put("numbers", numbers);
+        infoAboutString.put("others", others);
 
         return string;
     }
